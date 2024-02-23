@@ -30,4 +30,10 @@ neovim config
     <td>Linux/Windows,...</td>
     <td>open files and search</td> 
   </tr>
+   <tr>
+    <td><pre>leader m</pre></td>
+    <td>Normal</td>
+    <td>Linux/Windows,...</td>
+    <td> cellular automaton animations </td> 
+  </tr>
 </table>
