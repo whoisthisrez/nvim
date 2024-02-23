@@ -62,6 +62,10 @@ function AutoSave()
 endfunction
 
 call plug#begin()
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-media-files.nvim'
 
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer'
@@ -99,6 +103,7 @@ Plug 'romgrk/barbar.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'xiyaowong/transparent.nvim'
 Plug 'eandrju/cellular-automaton.nvim'
+
 
 call plug#end()
 
@@ -207,6 +212,19 @@ cmp.setup.cmdline(':', {
   exclude_groups = {}, -- table: groups you don't want to clear
 })
 
+require('telescope').load_extension('media_files')
+
+require('telescope').setup( {
+  extensions = {
+    media_files = {
+      -- filetypes whitelist
+      -- defaults to {"png", "jpg", "mp4", "webm", "pdf"}
+      filetypes = {"png", "webp", "jpg", "jpeg"},
+      -- find command (defaults to `fd`)
+      find_cmd = "rg"
+    }
+  },
+})
 EOF
 
 
