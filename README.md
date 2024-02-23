@@ -28,15 +28,21 @@ neovim config
     <td>open directories and files of current project</td> 
   </tr>
    <tr>
-    <td>ctrl f</td>
+    <td>ctrl-f</td>
     <td>Normal</td>
     <td>Linux/Windows,...</td>
     <td>open files and search</td> 
   </tr>
    <tr>
-    <td>f4></td>
+    <td>leader m</td>
     <td>Normal</td>
     <td>Linux/Windows,...</td>
     <td> cellular automaton animations </td> 
+  </tr>
+  <tr>
+    <td>F4</td>
+    <td>Normal</td>
+    <td>Linux/Windows,...</td>
+    <td> Transparent Toggle </td> 
   </tr>
 </table>
