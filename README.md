@@ -22,7 +22,12 @@ neovim config
     <td><pre>leader e</pre></td>
     <td>Normal</td>
     <td>Linux/Windows,...</td>
-    <td>open directories and files of current project</td>
-      
+    <td>open directories and files of current project</td> 
+  </tr>
+   <tr>
+    <td><pre>ctrl f</pre></td>
+    <td>Normal</td>
+    <td>Linux/Windows,...</td>
+    <td>open files and search</td> 
   </tr>
 </table>
