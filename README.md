@@ -48,3 +48,8 @@ neovim config
 </table>
 
 <q>leader key is ;</q>
+
+
+<hr>
+
+<p>after open nvim in Normal mode type this for install plugins: :PlugInstall</p>
