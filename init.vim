@@ -29,9 +29,16 @@ let g:rainbow_active = 1
 "  let g:python3_host_prog='/usr/bin/python'
 nnoremap <leader>e :NvimTreeToggle<CR>
 nnoremap <C-f> :Files<CR>
-nnoremap <F6>  :BufferNext<CR>
+
 nnoremap <leader>m :CellularAutomaton make_it_rain<CR>
 nnoremap <F4> :TransparentToggle<CR>
+
+"  buffer keys
+nnoremap <leader>bc :BufferClose<CR>
+nnoremap <leader>bn :BufferNext<CR>
+nnoremap <leader>bm :BufferMove<CR>
+nnoremap <leader>bf :BufferFirst<CR>
+nnoremap <leader>bl :BufferLast<CR>
 
 let g:jedi#goto_command = "<leader>d"
 let g:jedi#goto_assignments_command = "<leader>g"
