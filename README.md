@@ -18,4 +18,11 @@ neovim config
     <th>Platform</th>
     <th>Description</th>
   </tr>
+  <tr>
+    <td><leader> e</td>
+    <td>Normal</td>
+    <td>Linux/Windows,...</td>
+    <td>open directories and files of current project</td>
+      
+  </tr>
 </table>
