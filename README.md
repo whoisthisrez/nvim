@@ -19,7 +19,7 @@ neovim config
     <th>Description</th>
   </tr>
   <tr>
-    <td><pre><leader> e</pre></td>
+    <td><pre>leader e</pre></td>
     <td>Normal</td>
     <td>Linux/Windows,...</td>
     <td>open directories and files of current project</td>
