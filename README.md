@@ -9,3 +9,13 @@ neovim config
   <li>node js , 18 >=</li>
   <li>pyright</li>
 </ul>
+
+<h2>commands</h2>
+<table>
+  <tr>
+    <th>Shortcut</th>
+    <th>Mode</th>
+    <th>Platform</th>
+    <th>Description</th>
+  </tr>
+</table>
