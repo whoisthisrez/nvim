@@ -1,8 +1,11 @@
 # nvim
 neovim config
 
-<span>first install plugin manager: </span>
+<h2> install plugin manager: </h2>
 <pre>curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim</pre>
+
+<h2>install this config</h2>
+<pre>git clone https://github.com/thegreatrez/nvim.git ~/.config/nvim</pre>
 
 <h2>dependencies</h2>
 <ul>
