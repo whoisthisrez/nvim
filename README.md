@@ -45,6 +45,36 @@ neovim config
     <td>Linux/Windows,...</td>
     <td> Transparent Toggle </td> 
   </tr>
+  <tr>
+    <td>leader bc</td>
+    <td>Normal</td>
+    <td>Linux/Windows,...</td>
+    <td> close current buffer</td> 
+  </tr>
+  <tr>
+    <td>leader bf</td>
+    <td>Normal</td>
+    <td>Linux/Windows,...</td>
+    <td>go to first buffer</td> 
+  </tr>
+   <tr>
+    <td>leader bl</td>
+    <td>Normal</td>
+    <td>Linux/Windows,...</td>
+    <td>go to last buffer</td> 
+  </tr>
+   <tr>
+    <td>leader bm</td>
+    <td>Normal</td>
+    <td>Linux/Windows,...</td>
+    <td>move buffer</td> 
+  </tr>
+   <tr>
+    <td>leader bn</td>
+    <td>Normal</td>
+    <td>Linux/Windows,...</td>
+    <td>go to next buffer</td> 
+  </tr>
 </table>
 
 <q>leader key is ;</q>
