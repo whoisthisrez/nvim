@@ -29,8 +29,7 @@ let g:rainbow_active = 1
 "  let g:python3_host_prog='/usr/bin/python'
 nnoremap <leader>e :NvimTreeToggle<CR>
 nnoremap <C-f> :Files<CR>
-nnoremap <silent>    <A-,> <Cmd>BufferPrevious<CR>
-nnoremap <silent>    <A-.> <Cmd>BufferNext<CR>
+nnoremap <F6>  :BufferNext<CR>
 nnoremap <leader>m :CellularAutomaton make_it_rain<CR>
 nnoremap <F4> :TransparentToggle<CR>
 
@@ -100,6 +99,7 @@ Plug 'romgrk/barbar.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'xiyaowong/transparent.nvim'
 Plug 'eandrju/cellular-automaton.nvim'
+
 call plug#end()
 
 colorscheme tokyonight-night
