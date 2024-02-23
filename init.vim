@@ -1,7 +1,30 @@
 set number
+set cursorline
+set termguicolors
+set nowrap
+set completeopt=menu,menuone,noselect
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set textwidth=79
+set splitbelow
+set splitright
+set fileformat=unix
+set hidden
+set nobackup
+set nowritebackup
+set cmdheight=2
+set updatetime=300
+set shortmess+=c
+set splitbelow
+set splitright
+set termbidi
 set background=dark
 let mapleader = ";"
 syntax on
+
+
+
 let g:rainbow_active = 1
 "  let g:python3_host_prog='/usr/bin/python'
 nnoremap <leader>e :NvimTreeToggle<CR>
@@ -9,6 +32,8 @@ nnoremap <C-f> :Files<CR>
 nnoremap <silent>    <A-,> <Cmd>BufferPrevious<CR>
 nnoremap <silent>    <A-.> <Cmd>BufferNext<CR>
 nnoremap <leader>m :CellularAutomaton make_it_rain<CR>
+nnoremap <F4> :TransparentToggle<CR>
+
 let g:jedi#goto_command = "<leader>d"
 let g:jedi#goto_assignments_command = "<leader>g"
 let g:jedi#goto_stubs_command = "<leader>s"
@@ -183,6 +208,18 @@ cmp.setup.cmdline(':', {
 })
 
 EOF
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
