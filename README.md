@@ -46,3 +46,5 @@ neovim config
     <td> Transparent Toggle </td> 
   </tr>
 </table>
+
+<q>leader key is ;</q>
