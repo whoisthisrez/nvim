@@ -22,19 +22,19 @@ neovim config
     <th>Description</th>
   </tr>
   <tr>
-    <td><pre>leader e</pre></td>
+    <td>leader e</td>
     <td>Normal</td>
     <td>Linux/Windows,...</td>
     <td>open directories and files of current project</td> 
   </tr>
    <tr>
-    <td><pre>ctrl f</pre></td>
+    <td>ctrl f</td>
     <td>Normal</td>
     <td>Linux/Windows,...</td>
     <td>open files and search</td> 
   </tr>
    <tr>
-    <td><pre>leader m</pre></td>
+    <td>f4></td>
     <td>Normal</td>
     <td>Linux/Windows,...</td>
     <td> cellular automaton animations </td> 
