@@ -19,7 +19,7 @@ set shortmess+=c
 set splitbelow
 set splitright
 set termbidi
-set background=dark
+
 let mapleader = ";"
 syntax on
 
@@ -39,6 +39,8 @@ nnoremap <leader>bn :BufferNext<CR>
 nnoremap <leader>bm :BufferMove<CR>
 nnoremap <leader>bf :BufferFirst<CR>
 nnoremap <leader>bl :BufferLast<CR>
+
+imap <Tab> <Plug>(emmet-expand-abbr)
 
 let g:jedi#goto_command = "<leader>d"
 let g:jedi#goto_assignments_command = "<leader>g"
@@ -110,7 +112,13 @@ Plug 'romgrk/barbar.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'xiyaowong/transparent.nvim'
 Plug 'eandrju/cellular-automaton.nvim'
+Plug 'mattn/emmet-vim'
 
+Plug 'NvChad/nvim-colorizer.lua'
+Plug 'rcarriga/nvim-notify'
+Plug 'numToStr/Comment.nvim'
+Plug 'posva/vim-vue'
+Plug 'Exafunction/codeium.vim', { 'branch': 'main' }
 
 call plug#end()
 
@@ -121,8 +129,11 @@ colorscheme tokyonight-night
 
 call wilder#setup({'modes': [':', '/', '?']})
 
-lua <<EOF
 
+lua <<EOF
+require('notify').setup()
+require('Comment').setup()
+require('colorizer').setup()
 require('lualine').setup()
 
 require('nvim-treesitter.configs').setup {
@@ -233,9 +244,6 @@ require('telescope').setup( {
   },
 })
 EOF
-
-
-
 
 
 
