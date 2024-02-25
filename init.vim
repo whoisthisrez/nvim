@@ -23,8 +23,6 @@ set termbidi
 let mapleader = ";"
 syntax on
 
-
-
 let g:rainbow_active = 1
 "  let g:python3_host_prog='/usr/bin/python'
 nnoremap <leader>e :NvimTreeToggle<CR>
